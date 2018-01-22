@@ -39,8 +39,8 @@ module.exports = {
     ],
     entry: './client/index.js',
         output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'app.bundle.js'
+        path: path.resolve(__dirname, 'public'),
+        filename: 'bundle.js'
     },
     module: {
         rules: [
