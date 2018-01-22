@@ -4,5 +4,10 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 75vw;
+    box-sizing: border-box;
     padding: 20px;
+}
+
+.Message {
+    margin: 0.75vh 0;
 }
